@@ -12,7 +12,7 @@ function App() {
   if (page === "home") {
     return (
       <div className="landing">
-        <h1>Paradise Nursery</h1>
+        <h1>Welcome to Paradise Nursery</h1>
         <p>Your one-stop shop for beautiful houseplants</p>
         <button className="btn" onClick={() => setPage("products")}>Get Started</button>
       </div>
